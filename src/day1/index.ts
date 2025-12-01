@@ -11,15 +11,15 @@ const solve1 = async () => {
     const count = Number(line.slice(1)) % 100;
 
     if (direction === "L") {
-      const sum = pos - count;
+      const next = pos - count;
 
-      pos = sum < 0 ? 100 + sum : sum;
+      pos = next < 0 ? 100 + next : next;
     }
 
     if (direction === "R") {
-      const sum = pos + count;
+      const next = pos + count;
 
-      pos = sum > 99 ? sum - 100 : sum;
+      pos = next > 99 ? next - 100 : next;
     }
 
     if (pos === 0) {
@@ -44,23 +44,23 @@ const solve2 = async () => {
     result += fullRotations;
 
     if (direction === "L") {
-      const sum = pos - count;
+      const next = pos - count;
 
-      if (pos !== 0 && sum <= 0) {
+      if (pos !== 0 && next <= 0) {
         result += 1;
       }
 
-      pos = sum < 0 ? sum + 100 : sum;
+      pos = next < 0 ? next + 100 : next;
     }
 
     if (direction === "R") {
-      const sum = pos + count;
+      const next = pos + count;
 
-      if (sum > 99) {
+      if (next > 99) {
         result += 1;
       }
 
-      pos = sum > 99 ? sum - 100 : sum;
+      pos = next > 99 ? next - 100 : next;
     }
   }
 
