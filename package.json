@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "1": "tsx ./src/day1/index.ts"
+    "1": "tsx ./src/day1/index.ts",
+    "2": "tsx ./src/day2/index.ts"
   },
   "author": "",
   "license": "ISC",
