@@ -1,4 +1,3 @@
-import sum from "lodash/sum";
 import { readFile } from "../utils";
 import max from "lodash/max";
 
