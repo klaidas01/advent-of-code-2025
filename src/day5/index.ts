@@ -77,8 +77,8 @@ const addRange = (ranges: Range[], range: Range): Range[] => {
 };
 
 const main = async () => {
-  // const res1 = await solve1();
-  // console.log(`Part 1: ${res1}`);
+  const res1 = await solve1();
+  console.log(`Part 1: ${res1}`);
 
   const res2 = await solve2();
   console.log(`Part 2: ${res2}`);
