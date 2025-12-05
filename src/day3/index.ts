@@ -1,5 +1,5 @@
+import { max } from "lodash-es";
 import { readFile } from "../utils";
-import max from "lodash/max";
 
 const solve1 = async () => {
   const lines = await readFile("./src/day3/input.txt");

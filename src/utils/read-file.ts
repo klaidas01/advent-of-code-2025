@@ -11,3 +11,15 @@ export const readFile = (path: string) => {
 
   return rl;
 };
+
+export const readFileToMemory = async (path: string): Promise<string[]> => {
+  const lines = await readFile(path);
+
+  const result = [];
+
+  for await (const line of lines) {
+    result.push(line);
+  }
+
+  return result;
+};

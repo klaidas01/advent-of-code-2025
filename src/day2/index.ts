@@ -1,4 +1,4 @@
-import sum from "lodash/sum";
+import { sum } from "lodash-es";
 import { readFile } from "../utils";
 
 const solve1 = async () => {
