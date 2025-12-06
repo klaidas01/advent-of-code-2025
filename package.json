@@ -8,7 +8,8 @@
     "2": "tsx ./src/day2/index.ts",
     "3": "tsx ./src/day3/index.ts",
     "4": "tsx ./src/day4/index.ts",
-    "5": "tsx ./src/day5/index.ts"
+    "5": "tsx ./src/day5/index.ts",
+    "6": "tsx ./src/day6/index.ts"
   },
   "author": "",
   "license": "ISC",
