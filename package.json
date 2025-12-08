@@ -10,7 +10,8 @@
     "4": "tsx ./src/day4/index.ts",
     "5": "tsx ./src/day5/index.ts",
     "6": "tsx ./src/day6/index.ts",
-    "7": "tsx ./src/day7/index.ts"
+    "7": "tsx ./src/day7/index.ts",
+     "8": "tsx ./src/day8/index.ts"
   },
   "author": "",
   "license": "ISC",
