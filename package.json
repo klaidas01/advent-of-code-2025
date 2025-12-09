@@ -11,11 +11,13 @@
     "5": "tsx ./src/day5/index.ts",
     "6": "tsx ./src/day6/index.ts",
     "7": "tsx ./src/day7/index.ts",
-     "8": "tsx ./src/day8/index.ts"
+    "8": "tsx ./src/day8/index.ts",
+    "9": "tsx ./src/day9/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "heap-js": "^2.7.1",
     "lodash-es": "4.17.21",
     "tsx": "4.21.0",
     "typescript": "5.9.3"
